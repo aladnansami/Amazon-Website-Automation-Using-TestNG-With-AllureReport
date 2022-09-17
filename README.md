@@ -8,13 +8,13 @@ Amazon shopping website is automated by implementing test cases for visiting the
 -Cart
 -Checkout
 
-### Technology:
+## Technology:
 - Tool: Selenium Webdriver
 - IDE: Intellij IDEA
 - Build tool: Gradle
 - Language: Java
 - Testing Framework : TestNG
-### Prerequisite:
+## Prerequisite:
 - Need to install jdk 11, gradle and allure
 - Configure Environment variable for jdk 11, gradle and allure
 - Clone this project and unzip it
@@ -23,9 +23,9 @@ Amazon shopping website is automated by implementing test cases for visiting the
 - Let the project build successfully
 - Click on "Terminal" and run the automation scripts
 
-### Run the Automation Script by the following command:
+## Run the Automation Script by the following command:
 - gradle clean test 
 - Selenium will open the browser and start automating.
-### After automation to view allure report , give the following commands:
+## After automation to view allure report , give the following commands:
 - allure generate allure-results --clean -o allure-report
 - allure serve allure-results
