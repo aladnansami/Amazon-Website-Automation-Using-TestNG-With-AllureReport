@@ -25,7 +25,7 @@ Amazon shopping website is automated by implementing test cases for visiting the
 
 ## Run the Automation Script by the following command:
 - gradle clean test 
-- Selenium will open the browser and start automating.
+Selenium will open the browser and start automating.
 ## After automation to view allure report , give the following commands:
 - allure generate allure-results --clean -o allure-report
 - allure serve allure-results
