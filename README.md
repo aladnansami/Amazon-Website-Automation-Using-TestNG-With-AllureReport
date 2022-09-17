@@ -1,5 +1,8 @@
 # Amazon-Website-Automation-Using-TestNG-With-AllureReport
 Amazon shopping website is automated by implementing test cases for visiting the app, searching for a product, adding to cart and proceeding to checkout using an authenticated user.
+## Website
+https://www.amazon.com/
+
 ## The following key modules/pages are automated:
 
 -SignUp
