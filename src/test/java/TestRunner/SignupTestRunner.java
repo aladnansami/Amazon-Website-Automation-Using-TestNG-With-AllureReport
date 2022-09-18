@@ -23,5 +23,7 @@ public class SignupTestRunner extends Setup {
         String mobile="175"+utils.generateRandomNumber(1000000,9999999);
         signupPage.doRegistration(email,password,mobile);
         utils.writeUserInfo(email,password);
+
+
     }
 }
