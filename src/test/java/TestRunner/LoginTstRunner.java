@@ -24,7 +24,7 @@ public class LoginTstRunner extends Setup {
     }
     @Test(priority = 2)
     public void doLoginWithInvalidPass() throws IOException, ParseException {
-        //driver.get("http://automationpractice.com/");
+        driver.get("http://automationpractice.com/");
         loginPage=new LoginPage(driver);
         utils=new Utils();
         utils.getUserCreds(1);
