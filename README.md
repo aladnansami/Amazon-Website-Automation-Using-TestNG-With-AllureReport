@@ -27,7 +27,7 @@ https://www.amazon.com/
 - Click on "Terminal" and run the automation scripts
 
 ## Run the Automation Script by the following command:
-- gradle clean test 
+- gradle clean test <br>
 Selenium will open the browser and start automating.
 ## After automation to view allure report , give the following commands:
 - allure generate <br>
