@@ -5,11 +5,11 @@ https://www.amazon.com/
 
 ## The following key modules/pages are automated:
 
--SignUp
--Login
--Search
--Cart
--Checkout
+- SignUp
+- Login
+- Search
+- Cart
+- Checkout
 
 ## Technology:
 - Tool: Selenium Webdriver
