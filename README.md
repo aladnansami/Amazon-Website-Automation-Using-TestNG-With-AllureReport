@@ -14,7 +14,7 @@ https://www.amazon.com/
 ## Technology:
 - Tool: Selenium Webdriver
 - IDE: Intellij IDEA
-- Build tool: Gradle
+- Build tool: Gradle Build
 - Language: Java
 - Testing Framework : TestNG
 ## Prerequisite:
