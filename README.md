@@ -32,4 +32,5 @@ Selenium will open the browser and start automating.
 ## After automation to view allure report , give the following commands:
 - allure generate <br>
 allure-results --clean -o allure-report
-- allure serve allure-results
+- allure serve <br>
+allure-results
