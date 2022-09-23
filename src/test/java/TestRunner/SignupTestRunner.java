@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class SignupTestRunner extends Setup {
-    @Test
+    @Test(priority = 1,description = "SignIN")
     public void doSignup() throws InterruptedException, IOException, ParseException {
         driver.get("http://automationpractice.com/");
         LoginPage loginPage=new LoginPage(driver);
@@ -23,7 +23,5 @@ public class SignupTestRunner extends Setup {
         String mobile="175"+utils.generateRandomNumber(1000000,9999999);
         signupPage.doRegistration(email,password,mobile);
         utils.writeUserInfo(email,password);
-
-
     }
 }

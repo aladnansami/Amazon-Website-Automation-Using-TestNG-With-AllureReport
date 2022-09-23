@@ -22,7 +22,7 @@ public class LoginTstRunner extends Setup {
         Assert.assertEquals(isLogoutFound,true);
         loginPage.linkLogout.click();
     }
-    @Test(priority = 2)
+    @Test(priority = 2,description = "invalid")
     public void doLoginWithInvalidPass() throws IOException, ParseException {
         driver.get("http://automationpractice.com/");
         loginPage=new LoginPage(driver);
