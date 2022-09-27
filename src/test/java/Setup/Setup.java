@@ -23,19 +23,19 @@ public class Setup {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
-    @AfterMethod
-    public void screenShot(ITestResult result) throws IOException {
-        if (ITestResult.FAILURE == result.getStatus()) {
-            try {
-                Utils util = new Utils();
-                util.takeScreenshot(driver);
-            } catch (Exception exception) {
-                System.out.println(exception.toString());
-            }
-
-        }
-
-    }
+//    @AfterMethod
+//    public void screenShot(ITestResult result) throws IOException {
+//        if (ITestResult.FAILURE == result.getStatus()) {
+//            try {
+//                Utils util = new Utils();
+//                util.takeScreenshot(driver);
+//            } catch (Exception exception) {
+//                System.out.println(exception.toString());
+//            }
+//
+//        }
+//
+//    }
     @AfterTest
     public void closeDriver(){
         driver.quit();
