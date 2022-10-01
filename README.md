@@ -36,7 +36,7 @@ allure-results --clean -o allure-report
 ````
 
 - allure serve <br>
- 
+
 ````
-allure-results
+allure-results.
 ````
